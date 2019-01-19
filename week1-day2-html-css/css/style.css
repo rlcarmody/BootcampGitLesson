@@ -23,12 +23,19 @@ h2 {
     margin: 0 auto;
 }
 #main-bio, #contact-info, #bio-image {
-    float: left;
+    display: flex;
+    flex-direction: row;
 }
 #bio-image {
     width: 200px;
+    height: 200px;
     margin: 15px;
 }
+
+p {
+    display: block;
+}
+
 #main-bio {
     width: 70%;
 
